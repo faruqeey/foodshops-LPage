@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Delete your FoodShops account. Apple App Store compliant account deletion instructions.">
+<title>Account Deletion - FoodShops</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar">
+<div class="container">
+<a href="index.html" class="logo">
+<div class="logo-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>
+</div>
+FoodShops
+</a>
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="vendor.html">Vendors</a>
+<a href="delivery.html">Delivery</a>
+<a href="contact.html">Contact</a>
+</div>
+<div class="nav-cta">
+<a href="download.html" class="btn btn-primary btn-sm">Download App</a>
+</div>
+<button class="mobile-menu-btn" aria-label="Open menu">
+<span></span><span></span><span></span>
+</button>
+</div>
+</nav>
+
+<!-- Page Header -->
+<section class="page-header">
+<div class="container">
+<span class="section-label">Account Management</span>
+<h1>Delete Your Account</h1>
+<p>We respect your right to control your data. Follow the instructions below to permanently delete your FoodShops account and associated data.</p>
+</div>
+</section>
+
+<!-- Content Section -->
+<section class="content-page section-padding">
+<div class="container">
+<div class="content-section">
+
+<div class="highlight-box">
+<p><strong>Important:</strong> Account deletion is permanent and cannot be undone. All your order history, saved addresses, payment methods, rewards points, and personal information will be permanently removed from our systems within 30 days.</p>
+</div>
+
+<h2>How to Delete Your Account</h2>
+<p>FoodShops provides multiple ways to delete your account, in compliance with Apple App Store requirements and data protection regulations:</p>
+
+<ol class="deletion-steps">
+<li>
+<strong>Using the Mobile App (Recommended)</strong>
+<p>Open the FoodShops app → Go to <strong>Profile</strong> → Tap <strong>Settings</strong> → Select <strong>Account</strong> → Tap <strong>Delete Account</strong> → Confirm your decision by entering your password. Your account will be scheduled for deletion immediately.</p>
+</li>
+<li>
+<strong>Using the Website</strong>
+<p>Log into your account at foodshops.com → Go to <strong>Account Settings</strong> → Click <strong>Delete Account</strong> → Follow the verification steps. You will receive a confirmation email once the deletion is processed.</p>
+</li>
+<li>
+<strong>Contact Customer Support</strong>
+<p>If you cannot access the app or website, contact our support team directly. We will verify your identity and process your deletion request within 5 business days.</p>
+</li>
+</ol>
+
+<h2>What Happens When You Delete Your Account</h2>
+<ul>
+<li>Your account and all personal information will be permanently deleted</li>
+<li>Your order history and transaction records will be anonymized or deleted per legal requirements</li>
+<li>Any active subscriptions or recurring orders will be canceled</li>
+<li>Your rewards points and promotional credits will be forfeited</li>
+<li>You will be logged out of all devices immediately</li>
+<li>Any pending orders will be canceled and refunded</li>
+</ul>
+
+<h2>Data Retention Notice</h2>
+<p>While we delete your personal data promptly, some information may be retained for legal or regulatory purposes:</p>
+<ul>
+<li>Transaction records may be retained for 7 years as required by tax and financial regulations</li>
+<li>Anonymized data may be retained for analytics and business improvement purposes</li>
+<li>Records related to disputes or legal matters may be retained until the matter is resolved</li>
+</ul>
+<p>For complete details, please review our <a href="privacy.html">Privacy Policy</a>.</p>
+
+<h2>Request Account Deletion via Form</h2>
+<p>If you prefer, you can submit an account deletion request using the form below. Our team will process your request within 5 business days and send you a confirmation email.</p>
+
+<div class="deletion-form">
+<h3>Account Deletion Request</h3>
+<form action="#" method="POST" onsubmit="event.preventDefault(); alert('Your account deletion request has been received. We will send a confirmation email within 24 hours with further instructions.');">
+<div class="form-row">
+<div class="form-group">
+<label for="del_name">Full Name</label>
+<input type="text" id="del_name" name="del_name" placeholder="As shown on your account" required>
+</div>
+<div class="form-group">
+<label for="del_email">Account Email</label>
+<input type="email" id="del_email" name="del_email" placeholder="Your registered email address" required>
+</div>
+</div>
+<div class="form-row">
+<div class="form-group">
+<label for="del_phone">Phone Number</label>
+<input type="tel" id="del_phone" name="del_phone" placeholder="Your registered phone number" required>
+</div>
+<div class="form-group">
+<label for="del_reason">Reason for Deletion (Optional)</label>
+<select id="del_reason" name="del_reason">
+<option value="">Select a reason</option>
+<option value="not_using">No longer using the service</option>
+<option value="privacy">Privacy concerns</option>
+<option value="experience">Poor experience</option>
+<option value="found_alternative">Found an alternative</option>
+<option value="other">Other</option>
+</select>
+</div>
+</div>
+<div class="form-group">
+<label for="del_feedback">Additional Feedback (Optional)</label>
+<textarea id="del_feedback" name="del_feedback" placeholder="Help us improve by sharing why you're leaving..."></textarea>
+</div>
+<div class="form-group">
+<label style="display:flex;align-items:flex-start;gap:12px;cursor:pointer;font-weight:400;color:var(--text-medium);">
+<input type="checkbox" required style="width:auto;margin-top:4px;">
+<span>I understand that account deletion is permanent and cannot be undone. I confirm that I want to permanently delete my FoodShops account and all associated data.</span>
+</label>
+</div>
+<button type="submit" class="btn btn-primary btn-lg" style="width:100%">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/></svg>
+Request Account Deletion
+</button>
+</form>
+</div>
+
+<h2 style="margin-top:60px">Need Help?</h2>
+<p>If you have questions about account deletion or need assistance, please contact us:</p>
+<ul>
+<li><strong>Email:</strong> <a href="mailto:privacy@foodshops.com">privacy@foodshops.com</a></li>
+<li><strong>Phone:</strong> +1 (800) 555-0199 (Monday-Friday, 9AM-6PM PST)</li>
+<li><strong>Support:</strong> <a href="contact.html">Contact Support Team</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+<div class="container">
+<h2>Changed Your Mind?</h2>
+<p>We are constantly improving FoodShops. Download our latest app version and see what is new.</p>
+<div class="cta-buttons">
+<a href="download.html" class="btn btn-white btn-lg">Download the App</a>
+<a href="contact.html" class="btn btn-outline btn-lg" style="border-color:white;color:white">Contact Support</a>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a href="index.html" class="logo">
+<div class="logo-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>
+</div>
+FoodShops
+</a>
+<p>Connecting hungry customers with the best local restaurants and food vendors.</p>
+<div class="footer-social">
+<a href="#" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+<a href="#" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></a>
+<a href="#" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a>
+<a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+<a href="#" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg></a>
+</div>
+</div>
+<div class="footer-column">
+<h4>Company</h4>
+<ul>
+<li><a href="about.html">About Us</a></li>
+<li><a href="index.html#features">Features</a></li>
+<li><a href="index.html#how-it-works">How It Works</a></li>
+<li><a href="index.html#testimonials">Testimonials</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div class="footer-column">
+<h4>Partners</h4>
+<ul>
+<li><a href="vendor.html">Become a Vendor</a></li>
+<li><a href="delivery.html">Become a Delivery Partner</a></li>
+</ul>
+</div>
+<div class="footer-column">
+<h4>Legal</h4>
+<ul>
+<li><a href="privacy.html">Privacy Policy</a></li>
+<li><a href="terms.html">Terms & Conditions</a></li>
+<li><a href="delete-account.html">Account Deletion</a></li>
+</ul>
+</div>
+<div class="footer-column footer-newsletter">
+<h4>Stay Updated</h4>
+<p>Subscribe for the latest news and offers.</p>
+<form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
+<input type="email" placeholder="Enter your email" required>
+<button type="submit">Subscribe</button>
+</form>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 FoodShops. All rights reserved.</p>
+<div class="footer-bottom-links">
+<a href="privacy.html">Privacy</a>
+<a href="terms.html">Terms</a>
+<a href="delete-account.html">Delete Account</a>
+</div>
+</div>
+</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
