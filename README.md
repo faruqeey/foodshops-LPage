@@ -1,7 +1,7 @@
 # foodshops-LPage
 # FoodShops Landing Page  A modern, responsive marketing landing page for FoodShops – a food delivery marketplace connecting customers with local restaurants and vendors. 
 
-##🌐 Live Preview
+🌐 Live Preview
 🔗 https://foodshops.vercel.app
 
 ## 📁 Project Structure
