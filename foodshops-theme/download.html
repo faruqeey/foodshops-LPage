@@ -43,14 +43,14 @@ FoodShops
 <h1>FoodShops in Your Pocket</h1>
 <p>Order from hundreds of restaurants, track your delivery in real-time, and earn rewards — all from your smartphone.</p>
 <div class="download-buttons">
-<a href="#" class="app-btn" style="background:var(--secondary);color:white;border-color:var(--secondary);padding:16px 32px;">
+<a href="https://play.google.com/store/apps/details?id=ng.foodshops.apps" class="app-btn" style="background:var(--secondary);color:white;border-color:var(--secondary);padding:16px 32px;">
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M3 2l18 9-18 9V3Z"/></svg>
 <div class="app-btn-text">
 <span class="app-btn-label">Get it on</span>
 <span class="app-btn-store" style="font-size:1.2rem">Google Play</span>
 </div>
 </a>
-<a href="#" class="app-btn" style="background:var(--secondary);color:white;border-color:var(--secondary);padding:16px 32px;">
+<a href="https://apps.apple.com/us/app/food-shops/id6762178426" class="app-btn" style="background:var(--secondary);color:white;border-color:var(--secondary);padding:16px 32px;">
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-1.38 0-3 1-4 1s-2.62-1-4-1a4.91 4.91 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z"/><path d="M10 2c1 .5 2 2 2 5"/></svg>
 <div class="app-btn-text">
 <span class="app-btn-label">Download on the</span>
@@ -120,21 +120,71 @@ FoodShops
 <div class="container">
 <h2>Ready to Order?</h2>
 <p>Join over 50,000 happy customers. Download FoodShops and get your first delivery today.</p>
-<div class="cta-buttons">
-<a href="#" class="app-btn">
-<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-1.38 0-3 1-4 1s-2.62-1-4-1a4.91 4.91 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z"/><path d="M10 2c1 .5 2 2 2 5"/></svg>
-<div class="app-btn-text">
-<span class="app-btn-label">Download on the</span>
-<span class="app-btn-store">App Store</span>
-</div>
-</a>
-<a href="#" class="app-btn">
-<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 2l18 9-18 9V3Z"/></svg>
-<div class="app-btn-text">
-<span class="app-btn-label">Get it on</span>
-<span class="app-btn-store">Google Play</span>
-</div>
-</a>
+<div class="download-buttons">
+
+    <!-- Customer App -->
+    <div class="app-group" style="display:flex; flex-direction:column; align-items:center; gap:10px; margin-bottom:30px;">
+        <p style="font-weight:600; color:var(--text-dark); font-size:1.1rem;">For Customers</p>
+        <div style="display:flex; gap:16px; flex-wrap:wrap; justify-content:center;">
+            <a href="https://play.google.com/store/apps/details?id=ng.foodshops.apps" class="app-btn" target="_blank" style="background:var(--secondary);color:white;border-color:var(--secondary);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3l18 9-18 9V3Z"/></svg>
+                <div class="app-btn-text">
+                    <span class="app-btn-label">Download it on</span>
+                    <span class="app-btn-store">Google Play</span>
+                </div>
+            </a>
+            <a href="https://apps.apple.com/us/app/food-shops/id6762178426" class="app-btn" target="_blank" style="background:var(--secondary);color:white;border-color:var(--secondary);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-1.38 0-3 1-4 1s-2.62-1-4-1a4.91 4.91 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z"/><path d="M10 2c1 .5 2 2 2 5"/></svg>
+                <div class="app-btn-text">
+                    <span class="app-btn-label">Get it on</span>
+                    <span class="app-btn-store">App Store</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Vendor App -->
+    <div class="app-group" style="display:flex; flex-direction:column; align-items:center; gap:10px; margin-bottom:30px;">
+        <p style="font-weight:600; color:var(--text-dark); font-size:1.1rem;">For Vendors</p>
+        <div style="display:flex; gap:16px; flex-wrap:wrap; justify-content:center;">
+            <a href="https://play.google.com/store/apps/details?id=ng.foodshops.appsvendor" class="app-btn" target="_blank" style="background:var(--secondary);color:white;border-color:var(--secondary);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3l18 9-18 9V3Z"/></svg>
+                <div class="app-btn-text">
+                    <span class="app-btn-label">Download Vendor app on</span>
+                    <span class="app-btn-store">Google Play</span>
+                </div>
+            </a>
+            <a href="https://apps.apple.com/us/app/food-shops-vendor/id6762178530" class="app-btn" target="_blank" style="background:var(--secondary);color:white;border-color:var(--secondary);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-1.38 0-3 1-4 1s-2.62-1-4-1a4.91 4.91 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z"/><path d="M10 2c1 .5 2 2 2 5"/></svg>
+                <div class="app-btn-text">
+                    <span class="app-btn-label">Get Vendor app on</span>
+                    <span class="app-btn-store">App Store</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Delivery App -->
+    <div class="app-group" style="display:flex; flex-direction:column; align-items:center; gap:10px;">
+        <p style="font-weight:600; color:var(--text-dark); font-size:1.1rem;">For Delivery Partners</p>
+        <div style="display:flex; gap:16px; flex-wrap:wrap; justify-content:center;">
+            <a href="https://play.google.com/store/apps/details?id=ng.foodshops.appsdriver" class="app-btn" target="_blank" style="background:var(--secondary);color:white;border-color:var(--secondary);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3 3l18 9-18 9V3Z"/></svg>
+                <div class="app-btn-text">
+                    <span class="app-btn-label">Download Delivery app on</span>
+                    <span class="app-btn-store">Google Play</span>
+                </div>
+            </a>
+            <a href="https://apps.apple.com/us/app/food-shops-delivery/id6762178415" class="app-btn" target="_blank" style="background:var(--secondary);color:white;border-color:var(--secondary);">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-1.38 0-3 1-4 1s-2.62-1-4-1a4.91 4.91 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z"/><path d="M10 2c1 .5 2 2 2 5"/></svg>
+                <div class="app-btn-text">
+                    <span class="app-btn-label">Get Delivery app on</span>
+                    <span class="app-btn-store">App Store</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
 </div>
 </div>
 </section>
@@ -189,7 +239,7 @@ FoodShops
 <p>Subscribe for the latest news and offers.</p>
 <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
 <input type="email" placeholder="Enter your email" required>
-<button type="submit">Subscribe</button>
+<button type="submit">subscribe</button>
 </form>
 </div>
 </div>
