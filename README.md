@@ -5,6 +5,7 @@
 🔗 https://foodshops.vercel.app
 
 ## 📁 Project Structure
+
 foodshops-theme/
 ├── index.html # Home page
 ├── about.html # About us
