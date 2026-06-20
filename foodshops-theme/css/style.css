@@ -276,24 +276,17 @@ color: var(--text-dark);
 }
 
 .logo-icon {
-width: 42px;
-height: 42px;
-background: var(--primary_light);
-border-radius: var(--radius-md);
-display: flex;
-align-items: center;
-justify-content: center;
-color: white;
-overflow: hidden; /* Ensures the image stays inside the rounded corners */
-padding: 4px;
+    background: transparent;
+    width: auto;
+    height: 50px;
+    padding: 0;
+    border-radius: 0;
 }
 
-
 .logo-icon img {
-    width: 100%;
+    display: block;
     height: 100%;
-    object-fit: cover; /* or "contain" – test both */
-    mix-blend-mode: contain;
+    width: auto;
 }
 
 .nav-links {
