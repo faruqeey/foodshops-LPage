@@ -1,5 +1,5 @@
 /* ============================================
-FoodShops - Modern Food Marketplace Theme
+Food Shops - Modern Food Marketplace Theme
 ============================================ */
 
 /* CSS Variables */
@@ -271,15 +271,15 @@ align-items: center;
 gap: 10px;
 font-family: var(--font-heading);
 font-size: 1.6rem;
-font-weight: 800;
+font-weight: 900;
 color: var(--text-dark);
 }
 
 .logo-icon {
     background: transparent;
     width: auto;
-    height: 50px;
-    padding: 0;
+    height: 135px;
+    padding: 15px;
     border-radius: 0;
 }
 

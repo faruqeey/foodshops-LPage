@@ -1,6 +1,6 @@
 
 // ============================================
-// FoodShops - Main JavaScript
+// Food Shops - Main JavaScript
 // ============================================
 
 document.addEventListener('DOMContentLoaded', function() {
